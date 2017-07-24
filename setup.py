@@ -13,8 +13,8 @@ setup(
     license="MIT",
 
     install_requires=["pygments"],
-    packages=find_packages(),
-    entry_points = {
+    py_modules=["banana_themes"],
+    entry_points={
         "pygments.styles": ["zaab = banana_themes:Zaab",
                             "hitgub = banana_themes:HitGub"],
     },

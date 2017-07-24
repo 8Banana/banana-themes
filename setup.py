@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from setuptools import setup, find_packages
+from setuptools import setup
 
 
 setup(
@@ -8,7 +8,7 @@ setup(
     keywords="",
     url="https://github.com/8Banana/banana-themes",
     author="8Banana",
-    version="1.0.0",
+    version="1.1.0",
     copyright="Copyright (c) 2017 8Banana",
     license="MIT",
 

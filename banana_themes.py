@@ -26,12 +26,12 @@ class HitGub(Style):
 
         Name: '#000000',
         Name.Builtin: '#0086BF',
-        Name.Exception: "bold #000000",
+        Name.Exception: 'bold #000000',
         Name.Decorator: '#795DC1',
 
         String: '#183691',
 
-        Error: "bg:#ff0000 #000000",
+        Error: 'bg:#ff0000 #000000',
     }
 
 
@@ -56,10 +56,10 @@ class Zaab(Style):
 
         Name: '#ffffff',
         Name.Builtin: '#9f79ee',
-        Name.Exception: "bold #ff4500",
+        Name.Exception: 'bold #ff4500',
         Name.Decorator: '#1e90ff',
 
         String: '#00cd66',
 
-        Error: "bg:#ff0000 #ffffff",
+        Error: 'bg:#ff0000 #ffffff',
     }

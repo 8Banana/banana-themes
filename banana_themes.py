@@ -13,23 +13,30 @@ class HitGub(Style):
     # default_style) are there because for some reason styles don't inherit
     # default_style, even though the docs explicitly say so.
     styles = {
-        Comment: '#969696',
+        Comment: '#6a737d',
 
-        Keyword: '#A71D5D',
+        Keyword: '#d73a49',
+        Keyword.Constant: '#005cc5',
 
-        Operator: '#000000',
-        Operator.Word: '#A71D5D',
+        Operator: '#d73a49',
+        Operator.Word: '#d73a49',
 
-        Number: '#000000',
+        Number: '#005cc5',
 
         Punctuation: '#000000',
 
         Name: '#000000',
+        Name.Tag: '#ffffff',
+        Name.Variable: '#005cc5',
+        Name.Constant: '#005cc5',
         Name.Builtin: '#0086BF',
         Name.Exception: 'bold #000000',
         Name.Decorator: '#795DC1',
+        Name.Class: '#6f42c1',
+        Name.Function: '#6f42c1',
+        Name.Function.Magic: '#005cc5',
 
-        String: '#183691',
+        String: '#032f62',
 
         Error: 'bg:#ff0000 #000000',
     }

@@ -18,6 +18,7 @@ class HitGub(Style):
         Keyword: '#A71D5D',
 
         Operator: '#000000',
+        Operator.Word: '#A71D5D',
 
         Number: '#000000',
 
@@ -47,6 +48,7 @@ class Zaab(Style):
         Keyword: '#6495ed',
 
         Operator: '#ffffff',
+        Operator.Word: '#6495ed',
 
         Number: '#ffffff',
 

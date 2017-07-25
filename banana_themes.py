@@ -2,7 +2,7 @@ from pygments.style import Style
 from pygments.token import (Comment, Keyword, Operator, String,
                             Number, Punctuation, Name, Error)
 
-__all__ = ["HitGub", "Zaab"]
+__all__ = ['HitGub', 'Zaab']
 
 
 class HitGub(Style):
